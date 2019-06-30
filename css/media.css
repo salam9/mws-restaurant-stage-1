@@ -1,0 +1,15 @@
+@media only screen and (min-width: 800px) {
+    #restaurants-list li {
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .inside #map-container {
+        position: relative;
+        height: 350px;
+        width: 100%;
+    }
+    #restaurant-container{
+        width: 90%;
+    }
+}
